@@ -1,7 +1,7 @@
 import { CalculatorService } from './calculator.services';
 import { LoggerService } from './logger.service';
 
-describe('CalculatorService', () => {
+describe('CalculatorService/Bohol,Cristopher', () => {
     it('should add 2 numbers', () => {
         let calculator = new CalculatorService(new LoggerService());
         let result = calculator.add(2, 2);
